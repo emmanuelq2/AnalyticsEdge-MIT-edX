@@ -1,0 +1,93 @@
+
+
+
+/* In general, by adding html#ARCHIVE to elements, we override the base display dictated in /shared/css/ files just by adding an id in the 
+decorator files. I'm adding the id on the html element because that's unlikely to conflict with prior work.*/
+	
+/* The first big customization is spelling out the relative size of the aside element and tweaking its display on the new site. */
+
+html#NACJD .aside article {
+	margin: -22px 10px 0px 190px;	
+	}
+	
+html#NACJD aside {
+	width: 170px;
+	/*background: url('/icpsrweb/NACJD/images/right-col-bg-new.gif') top left repeat-x;*/
+	background: #fff url('/icpsrweb/NACJD/images/aside-bg.gif') top left repeat-x;;
+	font-size: .8em;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 0px 0px 5px;
+	display: block;	
+	float: left;
+	z-index: 2000;
+	position: relative;
+	border-right: 1px dashed #42609c;
+	}	
+	
+html#NACJD p.breadcrumb {
+	margin-top: 22px;
+	}	
+	
+/* This ensures that the floating navigation doesn't extend into the main body of the article. Adjust width as needed. */
+
+div#floatingNavigation {
+	width: 175px;
+	}
+	
+/* This tweaks the display of content within the aside element, especially facets and study home page navigation. */	
+		
+html#NACJD aside h2 {
+	color: #000;
+	}
+
+html#NACJD aside h3 {
+	font-size: 1.1em;
+	}
+	
+html#NACJD aside ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	}
+	
+html#NACJD aside ul li {
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px 5px 20px;
+	}
+	
+html#NACJD aside img {
+	max-width: 180px !important;
+	}
+	
+html#NACJD  img.removeFilter {
+	padding-left: 3px;
+	vertical-align: middle;
+	}
+	
+html#NACJD div#subscribe-results div {
+	padding: 10px 0px 0px 10px;
+	}
+	
+/* This tweaks the appearance of the quick download button. */
+
+html#NACJD div#quick_download {
+	margin: 15px 0px 0px -20px;
+	}
+
+html#NACJD div#quick_download ul li a {
+	font-size: 150%;
+	background-color: #696969;
+	}
+	
+html#NACJD div#quick_download li ul li:nth-child(even) a {
+	color: #696969;
+	background-color: white;
+	}
+	
+html#NACJD div#quick_download li.off ul,
+html#NACJD div#quick_download li.on ul {
+	border-color: #696969;
+	}
+
+
+	

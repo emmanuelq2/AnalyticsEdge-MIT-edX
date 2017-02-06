@@ -1,0 +1,76 @@
+
+
+
+body {
+	background: #fff;
+	font-size: 11pt;
+	font-family: georgia,serif;
+	color: #000;
+	}
+
+img {
+	display: none;
+	}
+	
+img#legendGraphic {
+	display: block;
+	}
+	
+	
+#right-col,#leftColumn,#pano {
+	display: none;
+	}
+
+h1 {
+	font-size: 1.4em;
+	}
+
+h2 {
+	font-size: 1.2em;
+	}
+
+h3 {
+	font-size: 1em;
+	}
+
+a {
+	color: #000;
+	text-decoration: none;
+	}
+	
+.go-top {
+	display: none;
+	}
+	
+div#reviseMap {
+	display: none;
+	}
+	
+#right-col {
+	display: none;
+	}
+	
+header, footer, nav {
+	display: none;
+	}
+	
+div#skip {
+	display: none;
+	}
+	
+p.report_problem {
+	display: none;
+	}
+	
+p.copyright_line {
+	display: none;
+	}
+	
+aside {
+	display: none;
+	}
+	
+div#google_translate_element {
+	display: none;
+	}
+

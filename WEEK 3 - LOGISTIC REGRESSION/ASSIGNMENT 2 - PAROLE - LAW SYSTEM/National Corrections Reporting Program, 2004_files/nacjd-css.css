@@ -1,0 +1,426 @@
+
+
+
+/* This is the HTML5 CSS. */
+
+
+/* STRUCTURAL CODE */
+
+body {
+	background: #e3915d url(/icpsrweb/NACJD/images/body-bg.gif) repeat-x;
+	font: 12px verdana,geneva,lucida,arial,sans-serif;
+	color: #000;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+div#beigeBorder {
+	position: relative;
+	background-color: #ddc58b;
+	opacity: .8;
+	z-index: 100;
+	border-radius: 5px 5px 0px 0px;
+	height: 6px;
+	margin: 0px auto;
+	width: 81%;
+	margin-top: -22px; 
+	min-width: 913px;
+	max-width: 1413px;
+	
+	}
+	
+div#beigeBorder2 {
+	position: relative;
+	background-color: #ddc58b;
+	opacity: .8;
+	z-index: -100;
+	border-radius: 0px 0px 5px 5px;
+	height: 16px;
+	margin: 0px auto;
+	width: 81%;
+	min-width: 913px;
+	max-width: 1413px;
+	}
+
+header {
+	position: relative;
+	z-index: 10;
+	background-color: white;
+	margin: 0px auto;
+	width: 80%;
+	margin-top: 50px;
+	padding-bottom: 22px;
+	border-radius: 10px 10px 0px 0px;
+	opacity: .99;
+	}
+	
+#tagline {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	width: 550px;
+	margin-left: -275px;
+	color: #26385c;
+	font: italic 21px serif;
+	letter-spacing: 3px;
+	margin-top: -70px;
+	text-align: center;
+	}
+	
+div#logo {
+	float: left;
+	margin: -22px 0px 0px -37px;
+	}
+	
+nav {
+	padding: 15px 15px 10px 15px;
+	clear: both;
+	}
+	
+body#home nav div#homeLink {
+	display: none;
+	}
+	
+nav div#homeLink {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	font-size: 10px;
+	}
+	
+nav div.mainNavLink {
+	display: block;
+	float: left;
+	width: 127px;
+	background-color: #42609c;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px 5px 0px 0px;
+	margin-right: 3px;
+	text-align: center;
+	}
+	
+nav div.mainNavLink a {
+	color: #f0f2db;
+	text-decoration: none;
+	font-size: 12px;
+	}
+	
+nav div.mainNavLink a:hover {
+	color: #d8834d;
+	cursor: pointer;
+	text-decoration: none;
+	}
+		
+section {
+	margin: 0px auto;
+	background-color: white;
+	width: 80%;
+	clear: both;
+	min-width: 900px;
+	max-width: 1400px;
+	}
+	
+article {
+	padding: 0px 20px 20px 20px;
+	margin-top: -22px;
+	position: relative;
+	z-index: 1000;
+	}
+	
+	
+/* SPLASH PAGE */
+
+#home header {
+	padding-bottom: 172px;
+	}
+
+#home article {
+	margin-top: 0px;
+	}
+
+#home #beigeBorder {
+	margin-top: -172px;
+	}
+	
+#home #beigeBorder2 {
+	z-index: 100;
+	height: 6px;
+	}
+
+#pano {
+	display: none;
+	}
+
+#home #pano {
+	position: relative;
+	z-index: 100;
+	width: 81%;
+	margin: 0 auto;
+	height: 150px;
+	display: block;
+	border: 0;
+	background-color: #ddc58b;
+	opacity: .8;
+	min-width: 913px;
+	max-width: 1413px;
+}
+
+#home #pano #pano2 {
+	height: 150px;
+	background: #ddc58b url(/icpsrweb/NACJD/images/pano.png) top left repeat-x;
+	margin: 0px 6px 0px 6px;
+	}
+
+/* SEARCH BOX IN UPPER RIGHT */
+	
+#search {
+	float: right;
+	margin-right: 12px;
+	padding: 15px 0 0 0;
+	background: url(/icpsrweb/NACJD/images/search-bg.gif) top right repeat-x;
+	width: 443px;
+	height: 85px;
+	}
+
+#search-fields {
+	background: url(/icpsrweb/NACJD/images/search-left.gif) top no-repeat;
+	margin: 0 auto;
+	width: 413px;
+	height: 63px;
+	color: #fff;
+	font-size: 11px;
+	}
+
+div#search-table {
+	margin-left: 50px;
+	padding-top: 10px;
+	width: 350px;
+	}
+
+#search-fields input {font-size: 11px;}
+
+#search-fields input#studies_q {
+	vertical-align: top;
+	margin-top: 10px;
+	}
+
+#nacjd-search, #related-search, #icpsr-search {
+	margin-left:153px; 
+	margin-top: -35px;
+	}
+
+#search-fields input#go {
+	width: 41px;
+	margin-left: 10px;
+	margin-top: 8px;
+	}
+
+#my-data {
+	margin: 10px 50px 0 0;
+	font: 11px arial, sans-serif;
+	float: right;
+	}
+	
+	
+/* FOOTER */
+
+
+footer {
+	width: 80%;
+	margin: 0px auto;
+	background-color: #fff;
+	margin-bottom: 15px;
+	}
+
+#blueFooter {
+	background: #fff url(/icpsrweb/NACJD/images/footer-bg.gif) top left repeat-x;
+	height: 109px;
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+	border-top: 1px solid white;
+		clear: both;
+	}
+
+#footer-host, #footer-sponsors {
+	color: white;
+	font-family: 'times new roman',serif;
+	text-transform: uppercase;
+	margin-top: 1px;
+	margin-left: 2px;
+	}
+
+#footer-sponsors {
+	float: right;
+	margin-right: 550px;
+	}
+
+#icpsr-logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	}
+
+#logos-container {
+	margin-right: 20px;
+	margin-top: 4px;
+	float: right;
+	}
+	
+#copyright {
+	position: absolute;
+	right: 2px;
+	top: 0;
+	font-size: 10px;
+	color: #666;
+	margin: 0 20px 5px 0;
+	}
+
+.footWrap {	
+	text-align:center;
+	padding-bottom: 5px;
+	position: relative;
+	}
+
+	
+/* PAGE STYLES */
+
+h1 {
+	font-size: 17px;
+	color: #7d0d01;
+	padding-top: 25px;
+	}
+
+h2 {
+	font-size: 15px;
+	color: #7d0d01;
+	}
+
+h3 {
+	font-size: 13px;
+	color: #7d0d01;
+	}
+	
+#mission {margin-bottom: 20px;}
+
+#news {
+	border-bottom: 3px solid #ebddc3;
+	border-left: 3px solid #ebddc3;
+	border-right: 3px solid #ebddc3;
+	margin-left: -10px;
+	padding: 10px 0px 0 10px;
+	background: #f7f0d8;
+	}
+
+h2#newsheading {
+	background: url(/icpsrweb/NACJD/images/news-bg-tab-wider.gif) top left no-repeat;
+	margin-left: -10px;
+	padding:  4px 0px 3px 10px;
+	margin-bottom: 0;
+	height: 19px;
+	}
+
+a img {border: none;}
+a:link {color: #003399;}
+a:visited {color: #333;}
+a:hover {color: #000; text-decoration: none;}
+a:active {color: green; text-decoration: underline;}
+
+#home h2 {text-transform: uppercase;}
+
+.firstletter {
+	font-size:  15px;
+	color: #7d0d01;
+	font-weight: bold;
+	}
+
+#home ul {
+	margin: 0;
+	padding: 0;
+	}
+
+li {margin-bottom: 3px;}
+
+ul#resource-guide-list {
+	list-style: none;
+	margin: 10px;
+	}
+
+#news ul {list-style: none;}
+
+#news li {
+	margin-bottom: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	}
+
+#more-news {
+	background: url(/icpsrweb/NACJD/images/more-news-bg.jpg) top left repeat-y;
+	}
+
+.light-bg {background: #fdfcf4;}
+
+#home li a, #home a {text-decoration: none;}
+#home li a:hover, #home a:hover {text-decoration: underline;}
+
+.small {font-size: 11px;}
+
+/* deposit button */
+
+body div.blue-pill {
+  font: 15px "helvetica neue", helvetica, arial, sans-serif;
+  margin: 0 auto;
+  width: 225px; 
+}
+  
+
+/* end */
+
+
+
+.see-also {
+	background: #fff;
+	border: solid 1px #7d0d01;
+	float: right;
+	padding: 5px;
+	width: 200px;
+	font-size: 11px;
+	margin: 10px 5px 5px 5px;
+	}
+
+#search-tips {
+float: right;
+width: 45%;
+margin: -36px 0 10px 5px;
+padding: 5px;
+border: 1px solid #e3915d;
+}
+
+table.standardDataTable {
+	border: 1px solid grey;
+	padding: 0px;
+	margin: 0px;
+	}
+
+table.standardDataTable td,
+table.standardDataTable th {
+	border: 1px solid grey;
+	padding: 5px;
+	margin: 0px;
+	}
+	
+aside code {
+	display: block;
+	margin: 10px 0px 10px 0px;
+	}
+	
+p.pFriendly {
+	display: block;
+	text-align: right;
+	padding-top: 20px;
+	}
+	
+.pageContainer {
+	min-width: 900px;
+	max-width: 1400px;
+	}
+	
+div.source, td.source, div.final, td.final {font-size: 100%;}	

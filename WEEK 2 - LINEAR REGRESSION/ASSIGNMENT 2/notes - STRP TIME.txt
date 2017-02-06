@@ -1,0 +1,24 @@
+
+https://courses.edx.org/courses/course-v1:MITx+15.071x_2a+2T2015/discussion/forum/ac78cc9a38b84932a622833176887d89/threads/55847cbba9a36ee25a0003a3
+
+KFPrinz
+
+about 23 hours ago
+
+    Vote for this post,  there are currently 0 votes 0 Votes
+    More
+
+OK, found it by experimenting: dataset$column = as.factor(dataset$column) Was just too scared to try it at first :)
+
+
+
+https://courses.edx.org/courses/course-v1:MITx+15.071x_2a+2T2015/discussion/forum/aedf7d0925c745ee8f0f8e6f7bb770f3/threads/557f5eb8a9a36e700600001a
+You can use the as.Date() or the strptime() functions, specifying the format of the date. 
+You can then extract numbers such as month using month <- format(date,"%m"). Use the ?strptime command to see what all the notations mean, 
+such as %m, %M, %Y, etc. 
+
+
+https://courses.edx.org/courses/course-v1:MITx+15.071x_2a+2T2015/discussion/forum/ee58629402db47adb6dff61bad13e372/threads/557fd0f0b30d840995000077
+Unless i am missing something I have copy pasted the date function provided in 2.2 (see below) and it is giving N/A values. 
+I cant seem to proceed any further and will lose points in this homework. 
+This function was not covered in any of the videos as well DateConvert = as.Date(strptime(mvt$Date, "%m/%d/%y %H:%M"))
